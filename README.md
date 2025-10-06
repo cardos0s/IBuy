@@ -44,6 +44,7 @@ A proposta é explorar:
 ---
 
 ## 🧩 Estrutura de Pastas
+```bash
 IBuy/
 ├── app/
 │   ├── _layout.tsx        → Layout principal com Tabs
