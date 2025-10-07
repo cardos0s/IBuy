@@ -8,8 +8,8 @@ export const styles = StyleSheet.create({
         backgroundColor: '#f5f5f5',
     },
     logo: {
-        height: 250, 
-        width: 250,
+        height: 100, 
+        width: 134,
         resizeMode: 'contain',
     },
 });

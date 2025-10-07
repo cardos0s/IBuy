@@ -4,13 +4,30 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({ 
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#d0d2d8',
+    paddingTop: 62,
+   
   },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
+  logo: {
+        height: 100, 
+        width: 134,
+    },
+
+  form: {
+    width: '100%',
+    paddingHorizontal: 10,
+    gap: 8,
+    marginTop: 30,
+    alignItems: 'center',
+  },
+  content: {
+   flex: 1,
+   backgroundColor: '#FFF',
+   borderTopLeftRadius: 25,
+   borderTopRightRadius: 25,
+   width: '100%',
+   padding:24,
+    marginTop: 24,
   },
 });
